@@ -1,0 +1,61 @@
+ .bannerBgImage{
+    height: 100vh;
+    background: url("/images/new\ 2.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+
+.bannerText{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+.bannerTitle{
+    font-size: 4rem;
+}
+
+.bannerDes{
+    font-size: 2rem;
+}
+
+.card {
+    cursor: pointer;
+}
+.card:hover{
+    background-color: rgb(204, 192, 196);
+    border: 2px solid rgb(14, 14, 13);
+}
+
+.bIcon {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.img-fluid:hover{
+    border: 2px solid rgb(14, 14, 13);
+}
+.card-img-top{
+ height: 50vh;  
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+}
